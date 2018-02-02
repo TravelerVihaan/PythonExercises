@@ -1,0 +1,39 @@
+1.
+'''
+def length_dict(word_list):
+'''list of strs -> dict of {int : list of strs}
+Zwraca slownik w ktorym kazdy klucz jest dlugoscia slowa (z word_list)
+a wartoscia jest lista slow (z word_list) o takiej dlugosci. Tylko
+dlugosci wyrazow z word_list moga byc kluczami'''
+pass
+'''
+2.
+'''
+Napisz funkcje zwracajaca kopie stringu ze zmienionymi malymi literami na
+duze i duzymi na male.
+String moze zawierac inne znaki niz litery - nie sa one zamieniane.
+Mozna wykorzystac metody:
+str.isupper(), str.islower(), ktore odpowiednio sprawdzaja czy dany string
+zawiera znaki odpowiedniego typu (zwraca true lub false)
+oraz str.upper(), str.lower() do zamiany znaków
+'''
+
+3.
+'''
+Napisz funkcje zwracajaca ilosc dni w podanym jako argument miesiacu
+oraz roku.
+W roku przestepnym (majacym 366 dni) luty ma 29 dni.
+Rok jest przestepny jesli jest podzielny przez 4,
+z wyjatkiem lat ktore sa podzielne przez 100 - wtedy musza byc podzielne
+przez 400. Przyjmij, ze argumentami procedury moga byc liczby calkowite
+(zadbaj o wlasciwe sprawdzenie poprawnosci zakresu tych liczb
+'''
+
+4.
+'''Zdefiniuj klase Okrag konstruowana przez promien i posiadajaca metody
+pole oraz drukuj ( z dokladnoscia do dwoch miejsc po przecinku, kazde z pol
+na wydruku ma szerokosc 10 znakow) tak jak w przykladzie
+
+Okrag     |promien   |pole      
+          |5         |78.54
+'''
